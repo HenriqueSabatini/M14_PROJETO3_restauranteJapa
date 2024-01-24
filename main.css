@@ -1,0 +1,85 @@
+/*NESSE CASO NAO PRECISAMOS APLICAR O RESET NO CSS, POIS O bootstrap JA FAZ ESSA APLICAÇÃO*/
+
+body {
+    font-family: 'Tektur', sans-serif;
+}
+
+.navbar {
+    background-color: #000000;
+}
+
+#cabecalho .nav .nav-link.active{ /*mudamos o fundo dos botoes e active*/
+    background-color: transparent;
+    color: #f90000;
+    text-shadow: 0 0 30px #f90000;
+    box-shadow: 0 0 30px;
+}
+
+#cabecalho .nav .nav-link, /*letras dos menus*/
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover {
+    color: #ff0404;
+    text-shadow: 0 0 30px #fe0000;
+
+}
+
+.section-title {/*classe criada para aplicar a fonte mais facilmente*/
+    font-family: 'Salsa', cursive;
+}
+
+.text-colored {/*classe criada para aplicar a fonte mais facilmente*/
+    color: #ff0000;
+}
+
+
+.navbar-toggler { /*aqui mudamos a cor do menu hambuguer*/
+    background-color: #fff;
+}
+
+#sobre-o-restaurante, #cardapio {
+    background-color:rgb(0, 0, 0);
+}
+
+#eventos, #fale-conosco {
+    background-color: #3f0000;
+}
+
+.nav-cardapio .nav-link.active,
+#fale-conosco button {
+    background-color: transparent;
+    color: #fff;
+    box-shadow: 0 0 30px; #ff0000;
+}
+
+.nav-cardapio .nav-link:hover {
+    color: #ffffff;
+    text-shadow: 0 0 30px #ff0000;
+
+}
+
+.social-links li {
+    list-style: none;
+    display:inline;
+}
+
+.social-links a{
+    text-decoration: none;
+}
+
+p,
+h3,
+h2,
+.espaço {
+    color: rgb(255, 255, 255);
+}
+
+
+@media (max-width: 767px){
+    .carousel-item img {
+        height: 280px;
+    }
+}
+
+
+
